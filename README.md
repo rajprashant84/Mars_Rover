@@ -94,15 +94,7 @@ python -m unittest discover -s tests
 
 
 
-### Key Sections
 
-- **Description**: Overview of the project.
-- **Project Structure**: Explains the directory layout.
-- **Setup**: Instructions to set up the project.
-- **Usage**: How to run the application with example commands.
-- **Running Tests**: How to run tests.
-- **Code Overview**: Brief description of key modules.
-- **License**: Licensing information (you may adjust as needed).
 
 This `README.md` file should provide a comprehensive guide for anyone who wants to understand, set up, and use your project.
 
