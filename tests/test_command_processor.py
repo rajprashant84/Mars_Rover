@@ -31,12 +31,12 @@ class TestCommandProcessor(unittest.TestCase):
         self.assertEqual(result, "0,0,NORTH")
 
     def test_invalid_place(self):
-        with self.assertRaises(ValueError):
-            self.processor.process("PLACE 5,5,NORTH")
+        result = self.processor.process("PLACE 5,5,NORTH")
+        self.assertEqual(result, "Error processing command 'PLACE 5,5,NORTH': PLACE command parameters out of dimensions bounds.")
 
     def test_invalid_command(self):
-        with self.assertRaises(ValueError):
-            self.processor.process("INVALID")
+        result = self.processor.process("INVALID")
+        self.assertEqual(result, "Error processing command 'INVALID': Invalid command.")
 
 if __name__ == "__main__":
     unittest.main()

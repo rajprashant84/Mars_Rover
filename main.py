@@ -1,7 +1,7 @@
 import sys
 from command import CommandProcessor
 
-DEFAULT_FILENAME = 'input/Input1.txt'
+DEFAULT_FILENAME = 'input/Input6.txt'
 
 def read_commands_from_file(filename):
     """Read input from text file and return into  a list of strings."""
