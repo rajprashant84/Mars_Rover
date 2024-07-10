@@ -62,19 +62,19 @@ initial placement of the toy robot.
   venv\Scripts\activate
 
 
-### Run code
+- **Run code**:
+  ```sh
+   python main.py 
 
-  python main.py 
-
-###  Running Tests
-
+- **Running Tests**:
+  ```sh
    python -m unittest discover -s tests
 
+  
+   
 
 
 
-
-This `README.md` file should provide a comprehensive guide for anyone who wants to understand, set up, and use your project.
 
 
 
