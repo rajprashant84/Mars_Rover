@@ -71,8 +71,8 @@ initial placement of the toy robot.
    python -m unittest discover -s tests
 
   
-###Changing the Input File
-To test different scenarios, you can replace input/Input1.txt with any other input file. 
+### Changing the Input File
+- To test different scenarios, you can replace input/Input1.txt with any other input file. 
 - Here are the steps:
 - Locate the main.py File:
 - Run the Application with a Different Input File:
