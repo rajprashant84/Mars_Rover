@@ -36,18 +36,23 @@ initial placement of the toy robot.
 ### Example Input Files
 
 #### Input 1
-```plaintext
 PLACE 0,0,NORTH
 MOVE
 REPORT
 
-#### input 2
+
+
+- Output: 0,1,NORTH
+
+#### Input 2
 PLACE 0,0,NORTH
 LEFT
 REPORT
 
 - Output: 0,0,WEST
-#### input 3
+
+#### Input 3
+
 PLACE 1,2,EAST
 MOVE
 MOVE
@@ -56,6 +61,7 @@ MOVE
 REPORT
 
 - Output: 3,3,NORTH
+
 
 ## Installation
 
