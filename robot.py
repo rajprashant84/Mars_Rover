@@ -7,7 +7,7 @@ class Robot:
         self.facing = None
 
     def place(self, x, y, facing):
-        """Place the robot on the tabletop."""
+        """Place the robot on the dimesnsion."""
         if 0 <= x <= 4 and 0 <= y <= 4 and facing in Robot.DIRECTIONS:
             self.x = x
             self.y = y

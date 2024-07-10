@@ -21,7 +21,7 @@ class CommandProcessor:
                 if self.table.is_on_table(x, y):
                     self.robot.place(x, y, facing)
                 else:
-                    raise ValueError(f"PLACE command parameters out of tabletop bounds.")
+                    raise ValueError(f"PLACE command parameters out of dimesnsion bounds.")
             elif command == "MOVE":
                 if self.robot.x is None or self.robot.y is None:
                     raise ValueError("MOVE command cannot be executed before PLACE command.")
