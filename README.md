@@ -32,35 +32,6 @@ commands.
 - The toy robot must not fall off the table during movement. This also includes the
 initial placement of the toy robot.
 - Any move that would cause the robot to fall must be ignored.
-### Here is some example input and output:
-### Example Input Files
-
-#### Input 1
-PLACE 0,0,NORTH
-MOVE
-REPORT
-
-
-
-- Output: 0,1,NORTH
-
-#### Input 2
-PLACE 0,0,NORTH
-LEFT
-REPORT
-
-- Output: 0,0,WEST
-
-#### Input 3
-
-PLACE 1,2,EAST
-MOVE
-MOVE
-LEFT
-MOVE
-REPORT
-
-- Output: 3,3,NORTH
 
 
 ## Installation
