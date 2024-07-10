@@ -33,17 +33,17 @@ commands.
 initial placement of the toy robot.
 - Any move that would cause the robot to fall must be ignored.
 ### Here is some example input and output:
-- input 1
+#### input 1
 PLACE 0,0,NORTH
 MOVE
 REPORT
 - Output: 0,1,NORTH
-- input 2
+#### input 2
 PLACE 0,0,NORTH
 LEFT
 REPORT
 - Output: 0,0,WEST
-- input 3
+#### input 3
 PLACE 1,2,EAST
 MOVE
 MOVE
