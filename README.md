@@ -34,16 +34,19 @@ initial placement of the toy robot.
 - Any move that would cause the robot to fall must be ignored.
 ### Here is some example input and output:
 #### input 1
+```plaintext
 PLACE 0,0,NORTH
 MOVE
 REPORT
 - Output: 0,1,NORTH
 #### input 2
+```plaintext
 PLACE 0,0,NORTH
 LEFT
 REPORT
 - Output: 0,0,WEST
 #### input 3
+```plaintext
 PLACE 1,2,EAST
 MOVE
 MOVE
