@@ -64,15 +64,12 @@ initial placement of the toy robot.
 
 
 
-### Install the required dependencies
-
-pip install -r requirements.txt
-
-### Run code
+- **Run code**:
+  ```sh
 python main.py 
-
-###  Running Tests
-
+ 
+- **Running Tests**:
+  ```sh
 python -m unittest discover -s tests
 
 
