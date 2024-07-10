@@ -62,15 +62,13 @@ initial placement of the toy robot.
   venv\Scripts\activate
 
 
+### Run code
 
+  python main.py 
 
-- **Run code**:
-  ```sh
-python main.py 
- 
-- **Running Tests**:
-  ```sh
-python -m unittest discover -s tests
+###  Running Tests
+
+   python -m unittest discover -s tests
 
 
 
